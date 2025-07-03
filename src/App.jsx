@@ -1,7 +1,7 @@
 import { useCallback, useState } from 'react';
 import InputAdd from './components/InputAdd.jsx';
 import Todolist from './components/Todolist.jsx';
-import FilterButton from './components/filterbutton.jsx';
+import FilterButton from './components/FilterButton.jsx'; // FIXED: case-sensitive filename
 
 function App() {
   const [todos, setTodos] = useState([
